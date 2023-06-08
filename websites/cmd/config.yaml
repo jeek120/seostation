@@ -1,0 +1,9 @@
+sites:
+  4月天:
+    proxyHosts:
+    - oldHost: local1.com:8080
+      newHost: 4yt.net
+      schema: https
+    replaces:
+      4yt.net/: local1.com:8080/
+listen: :8080
